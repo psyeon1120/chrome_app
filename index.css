@@ -3,8 +3,56 @@ body {
 }
 
 h1 {
-  color: #34495e;
+  color: rgb(221, 125, 34);
   transition: color 0.5s ease-in-out;
+  font-size: 100px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  margin: auto;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  background-color: unset;
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  border: none;
+}
+
+.all {
+  margin: auto;
+  width: 600px;
+  border-radius: 20px;
+  background-color: rgb(51, 100, 190, 0.7);
+}
+
+.js-clock {
+  text-align: center;
+}
+
+.list {
+  width: max-content;
+  height: max-content;
+  margin: auto;
+}
+
+.js-toDoList {
+  padding-bottom: 10px;
+}
+
+.js-weather {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .clicked {
